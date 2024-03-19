@@ -171,6 +171,9 @@ strlittral;
 const book = getBook(5);
 
 const { title, author } = book;
+const {pages} = book;
+const pagesRange = pages > 1000 ? "over thoused" : "less thoused";
+pagesRange;
 
 console.log(title, author);
 
