@@ -180,3 +180,13 @@ console.log(title, author);
 const {pages} = book;
 const pagesRange = pages > 1000 ? "over thoused" : "less thoused";
 pagesRange;
+
+//function declaretion 
+/*function getYear(str){
+  return str.split("-")[0];
+}*/
+
+//function expression 
+const getYear = (str) => str.split("-")[0];
+console.log(getYear(publicationDate));
+
