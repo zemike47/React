@@ -144,6 +144,31 @@ function getBook(id) {
 }
 
 const book = getBook(5);
+const { genres ,title,author,id} = book;
+//const { title, author } = book;
+
+//rest opretor
+const [primaryGenres, seconderGeners, ...others] = genres;
+genres;
+console.log(primaryGenres, seconderGeners, others);
+
+const newGeners = [...genres, "epic fantasy"];
+
+genres;
+
+const updatedBook = {
+  pages: 1213,
+  ...book,
+  hasMoviePublicationDate: "2001-09-01",
+};
+updatedBook;
+
+
+//templet litrals ---``
+
+const strlittral = `${title} is a movie`;
+strlittral;
+const book = getBook(5);
 
 const { title, author } = book;
 
