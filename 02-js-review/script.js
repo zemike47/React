@@ -173,3 +173,7 @@ const book = getBook(5);
 const { title, author } = book;
 
 console.log(title, author);
+
+const {pages} = book;
+const pagesRange = pages > 1000 ? "over thoused" : "less thoused";
+pagesRange;
