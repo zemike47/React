@@ -215,3 +215,6 @@ adventureBooks;
 const pagesAllbooks = book.reduce((sum, book) => sum + book.pages, 0);
 pagesAllbooks;
 
+const shortedBypages = book.slice().sort((a, b) => a.pages - b.pages);
+shortedBypages;
+
