@@ -190,3 +190,28 @@ pagesRange;
 const getYear = (str) => str.split("-")[0];
 console.log(getYear(publicationDate));
 
+const book = getBooks();
+book;
+
+const titles = book.map((book) => book.title);
+titles;
+
+const essentialData = book.map((book) => ({
+  title: book.title,
+  author: book.author,
+}));
+essentialData;
+
+const longBooks = book.filter((book) => book.pages > 500);
+longBooks;
+
+//.map(),.filter(),.includes()
+
+const adventureBooks = book
+  .filter((book) => book.genres.includes("adventure"))
+  .map((book) => book.title);
+adventureBooks;
+
+const pagesAllbooks = book.reduce((sum, book) => sum + book.pages, 0);
+pagesAllbooks;
+
