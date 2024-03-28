@@ -148,7 +148,7 @@ const book = getBook(5);
 const { genres ,title,author,id} = book;
 //const { title, author } = book;
 
-//rest opretor
+
 const [primaryGenres, seconderGeners, ...others] = genres;
 genres;
 console.log(primaryGenres, seconderGeners, others);
