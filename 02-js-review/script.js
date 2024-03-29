@@ -146,7 +146,7 @@ function getBook(id) {
 
 const book = getBook(5);
 const { genres ,title,author,id} = book;
-//const { title, author } = book;
+
 
 
 const [primaryGenres, seconderGeners, ...others] = genres;
