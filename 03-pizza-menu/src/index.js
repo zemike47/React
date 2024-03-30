@@ -82,22 +82,7 @@ function Menu() {
         <p>we're stil working on our menu. please come back later.</p>
       )}
 
-      {/*
-      <Pizza
-        name="pizza spinzci"
-        ingredients="Tomato,Mozarella,spinach,and ricotta cheese"
-        photoName="pizzas/spinaci.jpg"
-        price={120}
-        color="red"
-      />
-      <Pizza
-        name="pizza funghi"
-        ingredients="Tomato,mushrooms"
-        photoName="pizzas/funghi.jpg"
-        price={10}
-        color="blue"
-      />
-        */}
+     
     </main>
   );
 }
