@@ -79,7 +79,7 @@ function Menu() {
           </ul>
         </React.Fragment>
       ) : (
-        <p>we're stil working on our menu. please come back later.</p>
+        <p>we're stil working on our menu. please come back later..</p>
       )}
 
      
