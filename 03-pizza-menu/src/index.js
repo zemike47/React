@@ -125,7 +125,7 @@ function Footer() {
       {isOpen ? <p>we're closed</p> : <Order closeHour={closeHour} />}
     </footer>
   );
-  //return React.createElement("footer", null, "we're currently open!");
+  
 }
 
 function Order(props) {
