@@ -203,7 +203,7 @@ essentialData;
 const longBooks = book.filter((book) => book.pages > 500);
 longBooks;
 
-//.map(),.filter(),.includes()
+
 
 const adventureBooks = book
   .filter((book) => book.genres.includes("adventure"))
