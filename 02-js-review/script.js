@@ -165,7 +165,7 @@ const updatedBook = {
 updatedBook;
 
 
-//templet litrals ---``
+
 
 const strlittral = `${title} is a movie`;
 strlittral;
