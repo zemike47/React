@@ -70,8 +70,6 @@ body {
   right: 0;
 }
 
-/* */
-
 .menu {
   display: flex;
   flex-direction: column;
