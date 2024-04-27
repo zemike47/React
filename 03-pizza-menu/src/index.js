@@ -101,11 +101,7 @@ function Pizza({ pizzaObj }) {
 }
 
 function Header() {
-  /*const style = {
-    color: "yellow",
-    fontSize: "32px",
-    textTransform: "uppercase",
-  };*/
+  
   const style = {};
   return (
     <header className="header footer">
