@@ -2,7 +2,7 @@ export default function Stats({ items }) {
   if (!items.length)
     return (
       <p className="stats">
-        <em>start adding some items to your packing list 🚀</em>
+        <em>start adding some items to your packing list </em>
       </p>
     );
   const numItems = items.length;
