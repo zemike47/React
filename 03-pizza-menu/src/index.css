@@ -63,7 +63,7 @@ body {
 }
 
 .header h1::before {
-  left: 0;
+  left: 1;
 }
 
 .header h1::after {
