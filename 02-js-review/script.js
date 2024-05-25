@@ -123,7 +123,7 @@ const data = [
     },
     reviews: {
       goodreads: {
-        rating: 4.44,
+        rating: 4.445,
         ratingsCount: 2295233,
         reviewsCount: 59058,
       },
