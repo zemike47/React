@@ -145,7 +145,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2.4rem;
+  gap: 2.6rem;
 }
 
 .btn {
